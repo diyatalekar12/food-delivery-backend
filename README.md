@@ -58,7 +58,7 @@ Document the available API endpoints in detail.
       "category": "Main Course"
   }
 
-##Your response will be
+Your response will be
 {
     "message": "Menu item added successfully",
     "newItem": { "id": 1, "name": "Pizza", "price": 250, "category": "Main Course" }
