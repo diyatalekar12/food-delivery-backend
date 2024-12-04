@@ -57,22 +57,3 @@ Document the available API endpoints in detail.
       "price": 250,
       "category": "Main Course"
   }
-
-Your response will be
-{
-    "message": "Menu item added successfully",
-    "newItem": { "id": 1, "name": "Pizza", "price": 250, "category": "Main Course" }
-}
-
-
----
-
-### **8. Project Design**
-(Optional but useful for extra points) Add a brief about the design or architecture of the project.
-
-```markdown
-## Project Design
-
-- **Menu Management**: In-memory storage for menu items allows CRUD operations on menu items.
-- **Order Management**: Orders are stored in memory, ensuring valid menu items are selected for each order.
-- **Order Status Automation**: `node-cron` is used to simulate periodic updates to order statuses.
